@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Sebastian Shearer's Website</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="education.css">
+	<link rel="icon" type="image/JPG" href="about.jpg">
+
+</head>
+
+<body>
+<!--header-->
+	<header id=header>
+	<h1>Sebastian Shearer</h1>
+	</header>
+<!--Navigation bar-->
+	<nav>
+	<ul>
+		<li><a href="file:///C:/Users/shear/OneDrive/Documents/MyWebsite/Home.html">Home</a></li>
+		<li class="active"><a href="#g">Education</a></li>
+		<li><a href="file:///C:/Users/shear/OneDrive/Documents/MyWebsite/Hobbies.html">Hobbies</a></li>
+		<li><a href="file:///C:/Users/shear/OneDrive/Documents/MyWebsite/Resume.pdf">Resume</a></li>
+		
+	</ul>
+	</nav>
+	
+	<main>
+	
+	<article>
+	<h2> St John's College</h2>
+	<p>For my schooling career (grade 1-12) I was at <a href="https://www.stjohnscollege.co.za/">St John's College</a> in 
+		Johannesburg, South Africa. I Matriculated with distinction from <a href="https://www.stjohnscollege.co.za/">St John's College</a> in 
+		2020.</p>
+	
+	<button class="button-marks" onclick="tableDisplay()">Show Final Marks</button>
+	
+	<div>
+	<table id = "marks-table" style="display:none">
+	<tr>
+		<th>Subject</th>
+		<th>Mark</th>
+	</tr>
+	<tr>
+		<td>Mathematics</td>
+		<td>94%</td>
+	</tr>
+	<tr>
+		<td>Advanced Programme Mathematics</td>
+		<td>72%</td>
+	</tr>
+	<tr>
+		<td>Physical Sciences</td>
+		<td>84%</td>
+	</tr>
+	<tr>
+		<td>Life Sciences</td>
+		<td>86%</td>
+	</tr>
+	<tr>
+		<td>Geography</td>
+		<td>88%</td>
+	</tr>
+	<tr>
+		<td>English Home Language</td>
+		<td>76%</td>
+	</tr>
+	<tr>
+		<td>isiZulu First Additional Language</td>
+		<td>62%</td>
+	</tr>
+	
+	
+	
+	</table>
+	</div>
+
+	<h3>Loughborough University</h3>
+	<p> I am currently a first year student at <a href="https://www.lboro.ac.uk/study/">Loughborough University</a> in the UK
+		studying a BSc (Hons) Degree in <a href="https://www.lboro.ac.uk/study/undergraduate/courses/a-z/computer-science-and-artificial-intelligence-bsc/">Computer Science and Artificial Intelligence</a>.</p>
+	
+
+	 
+	</article>
+	
+	</main>
+	
+	<footer id=footer1>
+	<h4>Contact details</h4>
+	<ul class="contact">
+		<li class="contact-details">shearer.sebastian@gmail.com</li>
+		<li class="contact-details">(+44) 79493090821</li>
+		<li class="contact-details">(+27) 716033436</li>
+	</ul>
+	</footer>
+	
+	
+	<script>
+	const marksTable = document.getElementById("marks-table");
+
+	function tableDisplay(){
+	if (marksTable.style.display === "none"){
+		marksTable.style.display = "block";
+	}
+	else{
+		marksTable.style.display = "none";
+	}
+	}
+	</script>
+
+</body>
+
+</html>

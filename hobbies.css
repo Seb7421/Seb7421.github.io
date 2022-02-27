@@ -1,0 +1,117 @@
+   *{
+	   box-sizing:border-box;
+   } 
+	
+	header{
+		background-color: grey;
+		text-align: center;
+		padding: 10px;
+	    }
+	   
+	#header p,h1{
+		color:beige;
+		font-family:Ariel;
+	    }
+	
+	nav ul{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		overflow:hidden;
+		background-color:lightgrey;
+		
+	}
+	
+	nav li{
+		float:left;
+		width:25%;
+	}
+	
+	nav a{
+		display:block;
+		color:white;
+		text-align:center;
+		padding: 14px 16px;
+		text-decoration:none;
+		
+	}
+	
+	nav a:hover{
+		background-color:black;
+	}
+	
+	.active{
+		background-color: black;
+		color:white;
+		
+	}
+	
+	@media (max-width:800px){
+		.about{
+			flex-direction:column;
+		}
+	}
+	
+	.text1{
+		font-size:25px;
+		font-family:Sans-serif;
+	}
+	
+	.text2{
+		font-size:30px;
+		font-family:Sans-serif;
+		text-align:center;
+		
+	}
+	
+	.container1{
+
+		display:flex;
+		flex-wrap:wrap;
+		justify-content: space-around;
+		align-items: center;
+
+	}
+	
+	.flexbox{
+		width:400px;
+		margin:5px;
+		padding: 5px;
+	}
+	.item1{
+		min-height:150px;
+		font-size: 30px;
+		flex-grow:1;
+	}
+	
+	.main-container{
+		display:flex;
+		flex-wrap:wrap;
+
+		column-gap: 10px;
+		row-gap: 10px;
+	}
+	
+	.images{
+		width: 300px;
+		height: 300px;
+		object-fit: cover;
+
+		
+	}
+
+	
+	table{
+		margin-top:10px;
+	}
+	
+
+	footer{
+		border: grey;
+		padding: 1px;
+		text-align: center;
+		background: grey;
+		margin-top:10px;
+
+		}
+	.contact-details {display:inline;padding:10px;}
