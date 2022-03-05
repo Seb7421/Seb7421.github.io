@@ -38,6 +38,7 @@
 	
 	nav a:hover{
 		background-color:black;
+		color:beige;
 	}
 	
 	.active{
@@ -108,7 +109,7 @@
 
 	footer{
 		border: grey;
-		padding: 1px;
+		padding: 15px;
 		text-align: center;
 		background: grey;
 		margin-top:10px;
