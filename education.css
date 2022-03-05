@@ -38,6 +38,7 @@
 	
 	nav a:hover{
 		background-color:black;
+		color:beige;
 	}
 	
 	.active{
@@ -52,8 +53,16 @@
 		}
 	}
 	
-	h2,h3{
+	h2{
 		font-size:35px;
+		padding-bottom:12px;
+		font-family: Sans-serif;
+	}
+
+	h3{
+		font-size:35px;
+		padding-bottom:12px;
+		padding-top:50px;
 		font-family: Sans-serif;
 	}
 	
@@ -69,7 +78,7 @@
 
 	footer{
 		border: grey;
-		padding: 1px;
+		padding: 15px;
 		text-align: center;
 		background: grey;
 
