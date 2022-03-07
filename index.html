@@ -45,7 +45,7 @@
 			</p>
 		</div>
 		<div class = "flexbox item2">
-		<img onclick="addscary()" src = "about.jpg" width=100% height=auto></div>
+		<img onclick="addscary();audio()" src = "about.jpg" width=100% height=auto></div>
 	
 	</div>
 	
@@ -74,6 +74,11 @@
 	e.style = "visibility: none";
 	const y =  document.getElementById("scary");
 	y.style = "display: none";
+	}
+		
+	function audio(){
+	var scaryaudio = new Audio("scary.mp3");
+	scaryaudio.play();
 	}
 	</script>
 	
