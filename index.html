@@ -16,10 +16,6 @@
   </head>
 	
 <body>
-  <div>
-  <img id="scary" onclick = "removescary()" src = "scary.jpg" style = "display: none">
-  </div>
-<div id = "whole" style="visibility: none">
 <!--header-->
 	<header id=header>
 	<h1>Sebastian Shearer</h1>
@@ -45,7 +41,7 @@
 			</p>
 		</div>
 		<div class = "flexbox item2">
-		<img onclick="addscary();audio()" src = "about.jpg" width=100% height=auto></div>
+		<img src = "about.jpg" width=100% height=auto></div>
 	
 	</div>
 	
@@ -59,28 +55,6 @@
 		<li class="contact-details">(+27) 716033436</li>
 	</ul>
 	</footer>
-</div>
-	
-	<script>
-	function addscary(){
-	const x =  document.getElementById("whole");
-	x.style = "visibility: hidden";
-	const z =  document.getElementById("scary");
-	z.style = "display: block";
-	}
-	
-	function removescary(){
-	const e =  document.getElementById("whole");
-	e.style = "visibility: none";
-	const y =  document.getElementById("scary");
-	y.style = "display: none";
-	}
-		
-	function audio(){
-	var scaryaudio = new Audio("scary.mp3");
-	scaryaudio.play();
-	}
-	</script>
 	
 </body>
 
