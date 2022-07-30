@@ -36,7 +36,7 @@
 		Johannesburg, South Africa. I Matriculated with distinction from <a href="https://www.stjohnscollege.co.za/">St John's College</a> in 
 		2020.</p>
 	
-	<button type="button" class="btn btn-secondary" onclick="tableDisplay()">Show Final Marks</button>
+	<button type="button" class="btn btn-secondary" onclick="tableDisplaySchool()">Show Final Marks</button>
 	
 	<div>
 	<table id = "marks-table-school" style="display:none">
@@ -83,7 +83,7 @@
 		studying a BSc (Hons) Degree in <a href="https://www.lboro.ac.uk/study/undergraduate/courses/a-z/computer-science-and-artificial-intelligence-bsc/">Computer Science and Artificial Intelligence</a>.
 		I completed first year with an average of 82.9%.</p>
 	
-	<button type="button" class="btn btn-secondary" onclick="tableDisplay()">Show First Year Marks</button>
+	<button type="button" class="btn btn-secondary" onclick="tableDisplayUni()">Show First Year Marks</button>
 		
 	<div>
 	<table id = "marks-table-university" style="display:none">
@@ -156,15 +156,25 @@
 	
 	
 	<script>
-	const marksTable = document.getElementById("marks-table-school");
-
-	function tableDisplay(){
-	if (marksTable.style.display === "none"){
-		marksTable.style.display = "block";
+	const marksTableSchool = document.getElementById("marks-table-school");
+	const marksTableUni = document.getElementById("marks-table-University");
+		
+	function tableDisplaySchool(){
+	if (marksTableSchool.style.display === "none"){
+		marksTableSchool.style.display = "block";
+		}
+		else{
+		marksTableSchool.style.display = "none";
+		}
 	}
-	else{
-		marksTable.style.display = "none";
-	}
+		
+	function tableDisplayUni(){
+		if(marksTableUni.style.display === "none"){
+			marksTableUni.style.display = "block";
+		}
+		else{
+			marksTableUni.style.display = "none";
+		}
 	}
 	</script>
 
