@@ -39,7 +39,7 @@
 	<button type="button" class="btn btn-secondary" onclick="tableDisplay()">Show Final Marks</button>
 	
 	<div>
-	<table id = "marks-table" style="display:none">
+	<table id = "marks-table-school" style="display:none">
 	<tr>
 		<th>Subject</th>
 		<th>Mark</th>
@@ -79,9 +79,66 @@
 	</div>
 
 	<h3>Loughborough University</h3>
-	<p> I am currently a first year student at <a href="https://www.lboro.ac.uk/study/">Loughborough University</a> in the UK
-		studying a BSc (Hons) Degree in <a href="https://www.lboro.ac.uk/study/undergraduate/courses/a-z/computer-science-and-artificial-intelligence-bsc/">Computer Science and Artificial Intelligence</a>.</p>
+	<p> I am currently a second year student at <a href="https://www.lboro.ac.uk/study/">Loughborough University</a> in the UK
+		studying a BSc (Hons) Degree in <a href="https://www.lboro.ac.uk/study/undergraduate/courses/a-z/computer-science-and-artificial-intelligence-bsc/">Computer Science and Artificial Intelligence</a>.
+		I completed first year with an average of 82.9%.</p>
 	
+	<button type="button" class="btn btn-secondary" onclick="tableDisplay()">Show First Year Marks</button>
+		
+	<div>
+	<table id = "marks-table-university" style="display:none">
+	<tr>
+		<th>Module</th>
+		<th>Mark</th>
+	</tr>
+	<tr>
+		<td>Computer Systems</td>
+		<td>94%</td>
+	</tr>
+	<tr>
+		<td>Databases</td>
+		<td>83%</td>
+	</tr>
+	<tr>
+		<td>Embedded Systems Programming</td>
+		<td>74%</td>
+	</tr>
+	<tr>
+		<td>Functional Programming</td>
+		<td>92%</td>
+	</tr>
+	<tr>
+		<td>Introduction To Algorithms</td>
+		<td>91%</td>
+	</tr>
+	<tr>
+		<td>Introduction To Programming</td>
+		<td>69%</td>
+	</tr>
+	<tr>
+		<td>Logic For Computer Science</td>
+		<td>71%</td>
+	</tr>
+	<tr>
+		<td>Mathematics For Computer Science</td>
+		<td>83%</td>
+	</tr>
+	<tr>
+		<td>Object Oriented Programming</td>
+		<td>87%</td>
+	</tr>
+	<tr>
+		<td>Software Engineering 1</td>
+		<td>81%</td>
+	</tr>
+	<tr>
+		<td>Web Programming</td>
+		<td>85%</td>
+	</tr>
+		
+	</table>
+	</div>
+		
 
 	 
 	</article>
@@ -99,7 +156,7 @@
 	
 	
 	<script>
-	const marksTable = document.getElementById("marks-table");
+	const marksTable = document.getElementById("marks-table-school");
 
 	function tableDisplay(){
 	if (marksTable.style.display === "none"){
