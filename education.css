@@ -74,9 +74,10 @@
 		margin-top:10px;
 	}
 	
-	#education-info{
+	article{
 		padding: 50px;
 		border: grey;
+		border-width: 5px;
 		border-radius: 15px;
 		background-color: beige;
 	}
