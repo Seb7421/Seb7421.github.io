@@ -74,12 +74,11 @@
 		margin-top:10px;
 	}
 	
-	article{
+	#school-info{
 		padding: 50px;
 		border: grey;
 		border-width: 5px;
 		border-radius: 15px;
-		background-color: beige;
 	}
 
 	footer{
