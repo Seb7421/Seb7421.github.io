@@ -75,7 +75,9 @@
 	}
 	
 	#school-info,#university-info{
-		padding: 50px;
+		padding-top: 20px;
+		padding-left: 50px;
+		padding-right: 50px;
 	}
 
 	footer{
