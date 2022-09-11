@@ -59,14 +59,14 @@
 	}
 
 	h3{
-		font-size:35px;
-		padding-bottom:12px;
-		padding-top:50px;
+		font-size: 35px;
+		padding-bottom: 12px;
+		padding-top: 50px;
 		font-family: Sans-serif;
 	}
 	
 	p{
-		font-size:25px;
+		font-size:30px;
 		font-family: Sans-serif;
 	}
 	
@@ -80,7 +80,7 @@
 		padding-right: 50px;
 	}
 
-	#univerity-info{
+	#university-info{
 		padding-top: 30px;
 		padding-left: 50px;
 		padding-right: 50px;
