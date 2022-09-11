@@ -1,6 +1,6 @@
-   *{
+   	*{
 	   box-sizing:border-box;
-   } 
+   	} 
 	
 	header{
 		background-color: grey;
@@ -74,10 +74,17 @@
 		margin-top:10px;
 	}
 	
-	#school-info,#university-info{
-		padding-top: 20px;
+	#school-info{
+		padding-top: 30px;
 		padding-left: 50px;
 		padding-right: 50px;
+	}
+
+	#univerity-info{
+		padding-top: 30px;
+		padding-left: 50px;
+		padding-right: 50px;
+		padding- bottom: 30px;
 	}
 
 	footer{
