@@ -32,7 +32,6 @@
 		text-align:center;
 		padding: 14px 16px;
 		text-decoration:none;
-		
 	}
 	
 	nav a:hover{
@@ -136,7 +135,7 @@
 
 	}
 	
-	/*.flexbox{
+	.flexbox{
 		width:400px;
 		margin:5px;
 		padding: 5px;
@@ -145,7 +144,7 @@
 		min-height:150px;
 		font-size: 30px;
 		flex-grow:1;
-	}*/
+	}
 	
 	.main-container{
 		display:flex;
