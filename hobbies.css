@@ -1,4 +1,4 @@
-   *{
+  *{
 	   box-sizing:border-box;
    } 
 	
@@ -52,22 +52,79 @@
 		}
 	}
 	
-	.text1{
-		font-size:25px;
-		font-family:Sans-serif;
-		padding: 30px;
+	#dronePans{
+		padding-top: 30px;
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-bottom: 30px;
 	}
 	
-	.text2{
-		font-size:30px;
+	#bottom-right{
+		position: absolute;
+		top: 85%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+	
+	#image-text {
+		  position: relative;
+		  text-align: center;
+		  color: white;
+		  font-size: 3vw;
+		  font-family: Sans-serif;
+	}
+	
+	.carousel {
+		  display: block;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 70%;
+		  padding-top: 30px;
+	}
+	
+	.text{
+		font-size:25px;
 		font-family:Sans-serif;
-		text-align:center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
 	}
 
-	.text3{
+	.end-text{
 		font-family: Sans-serif;
 		text-align: center;
 		padding: 10px;
+	}
+	
+	h3{
+		font-family: Sans-serif;
+		font-size: 35px;
+		text-align: center;
+	}
+	
+	.road-maps{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+		padding-top: 30px;
+	}
+	
+	.float-child{
+		width: 50%;
+		float: left;
+	}
+	
+	.trip-info{
+		text-align: center;
+		font-family: Sans-serif;
+		padding: 20px;
+	}
+	
+	.float-container{
+		
 	}
 	
 	.container1{
@@ -79,7 +136,7 @@
 
 	}
 	
-	.flexbox{
+	/*.flexbox{
 		width:400px;
 		margin:5px;
 		padding: 5px;
@@ -88,12 +145,14 @@
 		min-height:150px;
 		font-size: 30px;
 		flex-grow:1;
-	}
+	}*/
 	
 	.main-container{
 		display:flex;
 		flex-wrap:wrap;
-
+		margin-left: 30px;
+		margin-right: 3opx;
+		float: left;
 		column-gap: 10px;
 		row-gap: 10px;
 	}
@@ -102,8 +161,6 @@
 		width: 300px;
 		height: 300px;
 		object-fit: cover;
-
-		
 	}
 
 	
