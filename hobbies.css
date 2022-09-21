@@ -103,6 +103,10 @@
 		text-align: center;
 	}
 	
+        .heading-padding{
+		padding-top:30px;
+        }
+	
 	.road-maps{
 		display: block;
 		margin-left: auto;
