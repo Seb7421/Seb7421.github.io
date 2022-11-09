@@ -73,14 +73,17 @@
 	table{
 		margin-top:10px;
 	}
-	
-	#school-info{
-		padding-top: 30px;
-		padding-left: 50px;
-		padding-right: 50px;
-	}
 
-	#university-info{
+	#education-container{
+		display:flex;
+		justify-content:center;
+		padding:20px;
+	}
+	
+	#udecation-info{
+		border-radius:10px;
+		background-color:beige;
+		width: 90%;
 		padding-top: 30px;
 		padding-left: 50px;
 		padding-right: 50px;
